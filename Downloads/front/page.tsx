@@ -180,7 +180,7 @@ export default function Page() {
               name: "Brian Holt",
               role: "Staff Product Manager",
               company: "Neon",
-              image: "https://reactjsexample.com/content/images/2021/10/brian.jpg",
+              image: "brian.png",
             },
             {
               name: "Iva Malesi",

@@ -355,8 +355,9 @@ export default function Page() {
                   "3 Month Program",
                   "5+ Portfolio Projects",
                   "Industry Certification",
-                  "Career Coaching",
-                  "Job Search Support",
+                  "Career Development Program",
+                  "Guaranteed Internship Placement",
+                  "Letter of Recommendation",
                 ].map((feature, index) => (
                   <li key={index} className="flex items-center gap-2">
                     <span className="text-[#FFD60A]">✓</span> <span className="font-bold">{feature}</span>

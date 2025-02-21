@@ -177,10 +177,10 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-12">
           {[
             {
-              name: "Tarik Zaimi",
-              role: "CEO, Co-founder",
-              company: "ICT Cortex",
-              image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Tarik-Zaimovic.png",
+              name: "Brian Holt",
+              role: "Staff Product Manager",
+              company: "Neon",
+              image: "https://static.frontendmasters.com/assets/teachers/holt/thumb@2x.webp",
             },
             {
               name: "Iva Malesi",

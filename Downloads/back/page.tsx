@@ -19,7 +19,7 @@ export default function Page() {
       <header className="container mx-auto p-4 flex items-center justify-between sticky top-0 z-50 bg-[#1E0B32]/80 backdrop-blur-sm">
         <div className="flex items-center">
           <Image
-            src="https://academy.ictcortex.me/wp-content/uploads/2021/09/cortex-svg-jodzi.svg"
+            src="logo.png"
             alt="ICT Cortex Kosovo"
             width={120}
             height={40}

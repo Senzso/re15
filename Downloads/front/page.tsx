@@ -180,7 +180,7 @@ export default function Page() {
               name: "Brian Holt",
               role: "Staff Product Manager",
               company: "Neon",
-              image: "https://static.frontendmasters.com/assets/teachers/holt/thumb@2x.webp",
+              image: "https://reactjsexample.com/content/images/2021/10/brian.jpg",
             },
             {
               name: "Iva Malesi",

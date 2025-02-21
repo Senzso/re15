@@ -273,7 +273,7 @@ export default function Page() {
             { name: "Codeus", src: "codeus.png" },
             { name: "Coinis", src: "coinis.png" },
             { name: "Bagolina", src: "bagolina.png" },
-            { name: "Fleka", src: "fleka.png" },
+            { name: "DayToDay", src: "daytoday.png" },
             { name: "Liridoni", src: "liridoni.png" },
             { name: "Agusholli", src: "agusholli.png" },
             { name: "Concordia", src: "concordia.png" },

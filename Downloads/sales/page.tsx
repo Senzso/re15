@@ -19,7 +19,7 @@ export default function Page() {
       <header className="container mx-auto p-4 flex items-center justify-between sticky top-0 z-50 bg-[#1E0B32]/80 backdrop-blur-sm">
         <div className="flex items-center">
           <Image
-            src="https://academy.ictcortex.me/wp-content/uploads/2021/09/cortex-svg-jodzi.svg"
+            src="logo.png"
             alt="ICT Cortex Kosovo"
             width={120}
             height={40}
@@ -89,19 +89,19 @@ export default function Page() {
               icon: Star,
               title: "Professional Portfolio",
               description:
-                "Create 5+ industry-standard design projects. Stand out to employers with a diverse and impressive portfolio.",
+                "Develop 5+ real-world enterprise sales case studies. Impress employers with a strong track record of sales strategies and success stories.",
             },
             {
               icon: Trophy,
               title: "1-on-1 Career Coaching",
               description:
-                "Personal guidance from industry experts to fast-track your career growth and land your dream graphic design job.",
+                "Get personalized mentorship from industry experts to accelerate your career and secure top enterprise sales roles.",
             },
             {
               icon: Award,
               title: "ICT Cortex Certification",
               description:
-                "Earn a recognized qualification that validates your graphic design skills and opens doors to top creative opportunities.",
+                "Earn a recognized certification that validates your enterprise sales expertise and enhances your credibility in the field.",
             },
           ].map((benefit, index) => (
             <div

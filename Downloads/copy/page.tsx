@@ -384,33 +384,15 @@ export default function Page() {
         </div>
       </div>
 
+   
       {/* Footer */}
       <footer className="border-t border-[#c276f4] bg-[#1E0B32]">
         <div className="container mx-auto px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="text-2xl font-bold mb-4">ICT Cortex Kosovo</div>
-              <Button
-                variant="link"
-                className="text-[#FFD60A] p-0 font-bold hover:text-[#FFD60A]/80 transition-colors duration-200"
-              >
-                Become a Partner
-              </Button>
             </div>
             <div>
-              <h3 className="font-bold mb-4">Academies</h3>
-              <ul className="space-y-2">
-                {["Copywriting", "Content Marketing"].map((item, index) => (
-                  <li key={index}>
-                    <Link
-                      href="#"
-                      className="text-gray-400 hover:text-[#FFD60A] font-bold transition-colors duration-200"
-                    >
-                      {item}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
             </div>
             <div>
               <h3 className="font-bold mb-4">Contact</h3>
@@ -419,21 +401,11 @@ export default function Page() {
                 <li>+383 44 222 222</li>
               </ul>
             </div>
-            <div className="flex gap-4">
-              {["FB", "IN", "IG", "YT"].map((social, index) => (
-                <Link
-                  key={index}
-                  href="#"
-                  className="text-gray-400 hover:text-[#FFD60A] font-bold transition-colors duration-200"
-                >
-                  {social}
-                </Link>
-              ))}
-            </div>
           </div>
         </div>
       </footer>
     </div>
   )
 }
+
 

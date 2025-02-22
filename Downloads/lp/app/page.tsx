@@ -22,7 +22,7 @@ const careerPaths = [
   { name: "Graphic Design", path: "gfx.ictcortex.com" },
   { name: "Social Media Marketing", path: "marketing.ictcortex.com" },
   { name: "Copywriting", path: "copy.ictcortex.com" },
-  { name: "Human Resources", path: "hr.ictcortex.com" },
+  { name: "Tiktok Shop Creator", path: "tiktok.ictcortex.com" },
 ]
 
 export default function Home() {

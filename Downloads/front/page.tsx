@@ -220,21 +220,21 @@ export default function Page() {
               {[
                 {
                   text: "Attending the course at Cortex Academy turned out to be a good choice. It was designed in a way that is easy to understand and can be useful for those who want to start or expand their knowledge of Frontend programming. After successfully completing the course, a practical project followed, which was the most interesting part for me. The project was implemented in the presence of mentor Zoran Mastilović, who was available for suggestions at any time.",
-                  name: "Marina Vojinovic",
+                  name: "Roni E.",
                   role: "Frontend Developer",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Marina-Vojinovic.jpg",
+                  image: "1.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy front-end development course, I successfully mastered practical skills that are key to becoming a proficient developer. I would like to highlight the help of mentors who monitored my progress and helped me become competitive in the IT industry job market. Thanks to this course, I learned to work with modern frameworks and tools, and gained valuable connections in the tech community.",
-                  name: "Jelena R.",
+                  name: "Dielleza G.",
                   role: "Junior Frontend Developer",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Jelena-Rajkovic-scaled.jpg",
+                  image: "2.jpg",
                 },
                 {
                   text: "The front-end development program for high school students helped me see what working in tech companies is like and what the labor market requires of us after graduation. Based on the skills I gained and the projects I completed, I have already had the opportunity to be employed in one of the partner companies.",
-                  name: "Gjovan P.",
+                  name: "Zamir S.",
                   role: "Intern Frontend Developer",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2021/10/Jovan-Popovic-1.jpg",
+                  image: "3.jpg",
                 },
               ].map((testimonial, index) => (
                 <div

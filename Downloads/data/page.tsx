@@ -218,21 +218,21 @@ export default function Page() {
               {[
                 {
                   text: "The data science course at Cortex Academy was exactly what I needed to transition into a tech career. The curriculum covered everything from Python basics to advanced machine learning techniques. The hands-on projects were particularly valuable, and the mentors were always there to provide guidance.",
-                  name: "Marina Vojinovic",
+                  name: "Tringa G.",
                   role: "Junior Data Scientist",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Marina-Vojinovic.jpg",
+                  image: "1.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy data science course, I mastered practical skills that are essential for today's data-driven industry. The mentors helped me build a strong foundation in statistical analysis and machine learning. Thanks to this program, I'm now working as a data analyst at a leading tech company.",
-                  name: "Jelena R.",
+                  name: "Erita R.",
                   role: "Data Analyst",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Jelena-Rajkovic-scaled.jpg",
+                  image: "2.jpg",
                 },
                 {
                   text: "The data science program gave me a clear understanding of data analysis principles and industry-standard tools. The practical experience I gained through working on real-world datasets helped me secure a position at one of the partner companies.",
-                  name: "Gjovan P.",
+                  name: "Arti S.",
                   role: "Data Science Intern",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2021/10/Jovan-Popovic-1.jpg",
+                  image: "3.jpg",
                 },
               ].map((testimonial, index) => (
                 <div

@@ -218,21 +218,21 @@ export default function Page() {
               {[
                 {
                   text: "The graphic design course at Cortex Academy was exactly what I needed to transition into a creative career. The curriculum covered everything from design basics to advanced digital tools. The hands-on projects were particularly valuable, and the mentors were always there to provide constructive feedback.",
-                  name: "Marina Vojinovic",
+                  name: "Martin R.",
                   role: "Junior Graphic Designer",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Marina-Vojinovic.jpg",
+                  image: "1.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy graphic design course, I mastered practical skills that are essential for today's design industry. The mentors helped me build a strong foundation in visual communication and digital tools. Thanks to this program, I'm now working as a graphic designer at a leading agency.",
-                  name: "Jelena R.",
+                  name: "Ron A.",
                   role: "Graphic Designer",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Jelena-Rajkovic-scaled.jpg",
+                  image: "2.jpg",
                 },
                 {
                   text: "The graphic design program gave me a clear understanding of design principles and industry-standard software. The practical experience I gained through creating real-world projects helped me secure a position at one of the partner creative agencies.",
-                  name: "Gjovan P.",
+                  name: "Artan D.",
                   role: "Design Intern",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2021/10/Jovan-Popovic-1.jpg",
+                  image: "3.jpg",
                 },
               ].map((testimonial, index) => (
                 <div

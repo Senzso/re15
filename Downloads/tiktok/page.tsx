@@ -220,21 +220,21 @@ export default function Page() {
               {[
                 {
                   text: "The TikTok Shop Creator course at Cortex Academy was exactly what I needed to start my social commerce career. The curriculum covered everything from content creation to inventory management. The hands-on projects were particularly valuable, and the mentors were always there to provide guidance.",
-                  name: "Marina Vojinovic",
+                  name: "Samije R.",
                   role: "TikTok Shop Manager",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Marina-Vojinovic.jpg",
+                  image: "1.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy TikTok Shop Creator course, I mastered practical skills that are essential for today's social commerce landscape. The mentors helped me build a strong foundation in live streaming and product sourcing. Thanks to this program, I'm now working as a social commerce specialist at a leading e-commerce company.",
-                  name: "Jelena R.",
+                  name: "Artan S.",
                   role: "Social Commerce Specialist",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Jelena-Rajkovic-scaled.jpg",
+                  image: "2.jpg",
                 },
                 {
                   text: "The TikTok Shop Creator program gave me a clear understanding of TikTok algorithms and social commerce trends. The practical experience I gained through working on real-world projects helped me secure a position at one of the partner companies.",
-                  name: "Gjovan P.",
+                  name: "Egzon Th.",
                   role: "TikTok Content Creator",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2021/10/Jovan-Popovic-1.jpg",
+                  image: "3.jpg",
                 },
               ].map((testimonial, index) => (
                 <div

@@ -174,18 +174,18 @@ export default function Page() {
         <h2 className="text-3xl font-bold mb-16 text-center">Meet the Lecturers</h2>
         <div className="grid md:grid-cols-2 gap-12">
           {[
-            {
-              name: "Tarik Zaimi",
-              role: "CEO, Co-founder",
-              company: "ICT Cortex",
-              image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Tarik-Zaimovic.png",
-            },
-            {
-              name: "Iva Malesi",
-              role: "People Development Officer, NLP trener",
-              company: "Bild studio",
-              image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Iva-Malesevic-1.png",
-            },
+              {
+                name: "Brian H.",
+                role: "Staff Product Manager",
+                company: "Neon ($150M Start-Up)",
+                image: "l1.jpg",
+              },
+              {
+                name: "Todd G.",
+                role: "Software Entrepreneur & Developer",
+                company: "Request Metrics",
+                image: "l2.jpg",
+              },
           ].map((lecturer, index) => (
             <div
               key={index}

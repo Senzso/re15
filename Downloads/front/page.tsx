@@ -177,16 +177,16 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-12">
           {[
             {
-              name: "Brian Holt",
+              name: "Brian H.",
               role: "Staff Product Manager",
-              company: "Neon",
-              image: "brian.png",
+              company: "Neon ($150M Start-Up)",
+              image: "l1.jpg",
             },
             {
-              name: "Iva M.",
-              role: "People Development Officer, NLP trener",
-              company: "Bild studio",
-              image: "iva.jpg",
+              name: "Todd G.",
+              role: "Software Entrepreneur & Developer",
+              company: "Request Metrics",
+              image: "l2.jpg",
             },
           ].map((lecturer, index) => (
             <div

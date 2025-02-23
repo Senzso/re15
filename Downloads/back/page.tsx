@@ -220,21 +220,21 @@ export default function Page() {
               {[
                 {
                   text: "The back-end development course at Cortex Academy was exactly what I needed. The curriculum covered everything from basic server concepts to advanced API development. The hands-on projects were particularly valuable, and the mentors were always there to help when needed.",
-                  name: "Marina Vojinovic",
+                  name: "Fjolla G.",
                   role: "Backend Developer",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Marina-Vojinovic.jpg",
+                  image: "1.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy back-end development course, I mastered practical skills that are essential for modern server-side development. The mentors helped me build a strong foundation in databases, APIs, and server architecture. Thanks to this program, I'm now working as a backend developer.",
-                  name: "Jelena R.",
+                  name: "Egzon R.",
                   role: "Junior Backend Developer",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Jelena-Rajkovic-scaled.jpg",
+                  image: "2.jpg",
                 },
                 {
                   text: "The back-end development program gave me a clear understanding of server-side technologies and database management. The practical experience I gained through building real APIs and working with databases helped me secure a position at one of the partner companies.",
-                  name: "Gjovan P.",
+                  name: "Joni P.",
                   role: "Backend Developer Intern",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2021/10/Jovan-Popovic-1.jpg",
+                  image: "3.jpg",
                 },
               ].map((testimonial, index) => (
                 <div

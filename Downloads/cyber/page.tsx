@@ -218,21 +218,21 @@ export default function Page() {
               {[
                 {
                   text: "The cyber security course at Cortex Academy was exactly what I needed to transition into a tech career. The curriculum covered everything from network security to advanced incident response. The hands-on projects were particularly valuable, and the mentors were always there to provide constructive feedback.",
-                  name: "Marina Vojinovic",
+                  name: "Arta S.",
                   role: "Security Analyst",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Marina-Vojinovic.jpg",
+                  image: "1.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy cyber security course, I mastered practical skills that are essential for today's digital defense landscape. The mentors helped me build a strong foundation in ethical hacking and cloud security. Thanks to this program, I'm now working as a Cyber Security Specialist at a leading tech company.",
-                  name: "Jelena R.",
+                  name: "Jetmir M.",
                   role: "Cyber Security Specialist",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Jelena-Rajkovic-scaled.jpg",
+                  image: "2.jpg",
                 },
                 {
                   text: "The cyber security program gave me a clear understanding of penetration testing principles and industry-standard tools. The practical experience I gained through working on real-world projects helped me secure a position at one of the partner companies.",
-                  name: "Gjovan P.",
+                  name: "Petrit P.",
                   role: "Junior Penetration Tester",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2021/10/Jovan-Popovic-1.jpg",
+                  image: "3.jpg",
                 },
               ].map((testimonial, index) => (
                 <div

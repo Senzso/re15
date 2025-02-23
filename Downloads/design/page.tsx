@@ -175,16 +175,16 @@ export default function Page() {
         <div className="grid md:grid-cols-2 gap-12">
           {[
             {
-              name: "Tarik Zaimi",
-              role: "CEO, Co-founder",
-              company: "ICT Cortex",
-              image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Tarik-Zaimovic.png",
+              name: "Jonas L.",
+              role: "Brand Designer",
+              company: "Worked for Red Bull, Motorola, Philips, etc.",
+              image: "d1.jpg",
             },
             {
-              name: "Iva Malesi",
-              role: "People Development Officer, NLP trener",
-              company: "Bild studio",
-              image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Iva-Malesevic-1.png",
+              name: "Janno C.",
+              role: "Founder, Graphic Designer",
+              company: "Zitl Media",
+              image: "d2.jpg",
             },
           ].map((lecturer, index) => (
             <div

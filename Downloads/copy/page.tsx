@@ -218,21 +218,21 @@ export default function Page() {
               {[
                 {
                   text: "The copywriting course at Cortex Academy was exactly what I needed to transition into a creative career. The curriculum covered everything from persuasive writing techniques to advanced content strategy. The hands-on projects were particularly valuable, and the mentors were always there to provide constructive feedback.",
-                  name: "Marina Vojinovic",
+                  name: "Edison E.",
                   role: "Senior Copywriter",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Marina-Vojinovic.jpg",
+                  image: "1.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy copywriting course, I mastered practical skills that are essential for today's digital marketing landscape. The mentors helped me build a strong foundation in SEO copywriting and brand storytelling. Thanks to this program, I'm now working as a content strategist at a leading tech company.",
-                  name: "Jelena R.",
+                  name: "Denisa S.",
                   role: "Content Strategist",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Jelena-Rajkovic-scaled.jpg",
+                  image: "2.jpg",
                 },
                 {
                   text: "The copywriting program gave me a clear understanding of persuasive writing principles and industry-standard tools. The practical experience I gained through working on real-world projects helped me secure a position at one of the partner companies.",
-                  name: "Gjovan P.",
+                  name: "Olti Z.",
                   role: "Junior Copywriter",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2021/10/Jovan-Popovic-1.jpg",
+                  image: "3.jpg",
                 },
               ].map((testimonial, index) => (
                 <div

@@ -218,21 +218,21 @@ export default function Page() {
               {[
                 {
                   text: "The enterprise sales course at Cortex Academy was exactly what I needed to transition into a high-stakes sales career. The curriculum covered everything from B2B sales fundamentals to advanced negotiation techniques. The hands-on projects were particularly valuable, and the mentors were always there to provide constructive feedback.",
-                  name: "Marina Vojinovic",
+                  name: "Jetmir P.",
                   role: "Enterprise Sales Executive",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Marina-Vojinovic.jpg",
+                  image: "1.jpg",
                 },
                 {
                   text: "As a participant of the Cortex Academy enterprise sales course, I mastered practical skills that are essential for today's complex B2B sales environment. The mentors helped me build a strong foundation in solution selling and account management. Thanks to this program, I'm now working as a senior sales representative at a leading tech company.",
-                  name: "Jelena R.",
+                  name: "Minush T.",
                   role: "Senior Sales Representative",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2023/01/Jelena-Rajkovic-scaled.jpg",
+                  image: "2.jpg",
                 },
                 {
                   text: "The enterprise sales program gave me a clear understanding of the sales cycle and industry-standard CRM tools. The practical experience I gained through real-world sales simulations helped me secure a position at one of the partner corporations.",
-                  name: "Gjovan P.",
+                  name: "Tahir F.",
                   role: "Sales Development Representative",
-                  image: "https://academy.ictcortex.me/wp-content/uploads/2021/10/Jovan-Popovic-1.jpg",
+                  image: "3.jpg",
                 },
               ].map((testimonial, index) => (
                 <div

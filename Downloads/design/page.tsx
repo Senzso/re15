@@ -399,7 +399,7 @@ export default function Page() {
               <h3 className="font-bold mb-4">Contact</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>info@ictcortex.com</li>
-                <li>+383 44 222 222</li>
+                <li>+385952429722</li>
               </ul>
             </div>
           </div>

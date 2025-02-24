@@ -29,7 +29,7 @@ export default function Page() {
           className="bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90 rounded-full text-sm font-bold transition-colors duration-200"
           onClick={() =>
             window.open(
-              "https://wa.me/386000000000?text=Hello%2C%20I%20would%20like%20to%20learn%20more%20about%20the%20Cortex%20Enterprise%20Sales%20program.",
+              "https://wa.me/385952429722?text=Hello%2C%20I%20would%20like%20to%20learn%20more%20about%20the%20Cortex%20Enterprise%20Sales%20program.",
               "_blank",
             )
           }
@@ -53,7 +53,7 @@ export default function Page() {
           className="bg-[#FFD60A] text-black hover:bg-[#FFD60A]/90 rounded-full px-8 py-6 text-lg font-bold transition-transform duration-200 hover:scale-105"
           onClick={() =>
             window.open(
-              "https://wa.me/386000000000?text=Hello%2C%20I%20would%20like%20to%20register%20for%20the%20Cortex%20Enterprise%20Sales%20program.%20I%20have%20received%20the%20information%20and%20would%20like%20to%20proceed%20with%20the%20registration.%20Please%20guide%20me%20through%20the%20next%20steps.",
+              "https://wa.me/385952429722?text=Hello%2C%20I%20would%20like%20to%20register%20for%20the%20Cortex%20Enterprise%20Sales%20program.%20I%20have%20received%20the%20information%20and%20would%20like%20to%20proceed%20with%20the%20registration.%20Please%20guide%20me%20through%20the%20next%20steps.",
               "_blank",
             )
           }
@@ -305,7 +305,7 @@ export default function Page() {
                 className="rounded-full font-bold bg-white text-black hover:bg-black hover:text-white transition-colors duration-200"
                 onClick={() =>
                   window.open(
-                    "https://wa.me/386000000000?text=Hello%2C%20I%20would%20like%20to%20schedule%20a%20free%20consultation%20for%20the%20Cortex%20Enterprise%20Sales%20program.",
+                    "https://wa.me/385952429722?text=Hello%2C%20I%20would%20like%20to%20schedule%20a%20free%20consultation%20for%20the%20Cortex%20Enterprise%20Sales%20program.",
                     "_blank",
                   )
                 }
@@ -370,7 +370,7 @@ export default function Page() {
                 onClick={() => {
                   if (group.status !== "SOLD OUT") {
                     window.open(
-                      "https://wa.me/386000000000?text=Hello%2C%20I%20would%20like%20to%20register%20for%20the%20Cortex%20Enterprise%20Sales%20program.%20I%20have%20received%20the%20information%20and%20would%20like%20to%20proceed%20with%20the%20registration.%20Please%20guide%20me%20through%20the%20next%20steps.",
+                      "https://wa.me/385952429722?text=Hello%2C%20I%20would%20like%20to%20register%20for%20the%20Cortex%20Enterprise%20Sales%20program.%20I%20have%20received%20the%20information%20and%20would%20like%20to%20proceed%20with%20the%20registration.%20Please%20guide%20me%20through%20the%20next%20steps.",
                       "_blank",
                     )
                   }

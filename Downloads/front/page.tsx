@@ -331,9 +331,9 @@ export default function Page() {
         <h2 className="text-3xl font-bold mb-16 text-center">Choose Your Start Date</h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {[
-            { month: "February", status: "SOLD OUT" },
-            { month: "March 1st", status: "REGISTER NOW" },
-            { month: "April 1st", status: "REGISTER NOW" },
+            { month: "March", status: "SOLD OUT" },
+            { month: "April", status: "REGISTER NOW" },
+            { month: "May", status: "REGISTER NOW" },
           ].map((group, i) => (
             <div
               key={i}

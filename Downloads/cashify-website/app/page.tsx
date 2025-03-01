@@ -82,8 +82,8 @@ function HeroSection() {
                 <Link href="#how-it-works" className="button-primary">
                   HOW IT WORKS
                 </Link>
-                <Link href="https://dexscreener.com" target="_blank" className="button-secondary">
-                  DEXSCREENER
+                <Link href="/buy" target="_blank" className="button-secondary">
+                  BUY CASHIFY
                 </Link>
               </div>
             </div>
@@ -734,7 +734,7 @@ function JoinSection() {
             </p>
 
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="#buy" className="button-primary">
+              <Link href="/buy" className="button-primary">
                 BUY CASHIFY
               </Link>
               <Link href="https://x.com/cashifysol" className="button-secondary">

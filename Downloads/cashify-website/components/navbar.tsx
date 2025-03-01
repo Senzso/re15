@@ -61,7 +61,7 @@ export default function Navbar() {
               Follow Us
             </Link>
 
-            <Link href="#buy" className="button-primary">
+            <Link href="/buy" className="button-primary">
               BUY CASHIFY
             </Link>
           </nav>
@@ -112,7 +112,7 @@ export default function Navbar() {
               >
                 Follow Us
               </Link>
-              <Link href="#buy" className="block button-primary text-center" onClick={() => setIsOpen(false)}>
+              <Link href="/buy" className="block button-primary text-center" onClick={() => setIsOpen(false)}>
                 BUY CASHIFY
               </Link>
             </div>

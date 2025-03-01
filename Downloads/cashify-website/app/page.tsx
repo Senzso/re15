@@ -333,7 +333,7 @@ function WhyCashifySection() {
           <AnimatedSection>
             <div className="relative">
               <motion.div
-                className="relative z-10 futuristic-overlay"
+                className="relative z-10 tech-image"
                 animate={{ y: [0, -15, 0] }}
                 transition={{ repeat: Number.POSITIVE_INFINITY, duration: 6, ease: "easeInOut" }}
               >

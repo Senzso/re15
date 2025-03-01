@@ -91,7 +91,7 @@ function HeroSection() {
 
           <AnimatedSection>
             <div className="relative">
-              <div className="tech-image tech-glow">
+              <div className="tech-image">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/4-0DJ6SKy9J7fnZhCM5TzY17JrXxS8cW.png"
                   alt="Digital wallet with coins"
@@ -133,7 +133,7 @@ function HowItWorksSection() {
                 Every buy and sell transaction contributes to a sustainable SOL reward system, ensuring consistent
                 payouts.
               </p>
-              <div className="tech-image tech-glow">
+              <div className="tech-image">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3-j9xlrtPI3gOpAQzn07YXMFT2HShImc.png"
                   alt="Stacks of dollar bills"
@@ -152,7 +152,7 @@ function HowItWorksSection() {
                 Each time total trading volume reaches <span className="font-bold text-white">200K</span>, $40,000 in
                 SOL is distributed among the top 50 holders.
               </p>
-              <div className="tech-image tech-glow">
+              <div className="tech-image">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10-IcccLEUtS903pCHtCcksjYiNJ3FL5x.png"
                   alt="Percentage symbol with astronaut"
@@ -293,7 +293,7 @@ function TransparentSection() {
           <AnimatedSection>
             <div className="relative">
               <motion.div
-                className="relative z-10 tech-image tech-glow"
+                className="relative z-10 tech-image"
                 animate={{ y: [0, -15, 0] }}
                 transition={{ repeat: Number.POSITIVE_INFINITY, duration: 6, ease: "easeInOut" }}
               >
@@ -554,7 +554,7 @@ function RewardSystemSection() {
                 (Final amounts vary based on token holdings.)
               </p>
 
-              <div className="mt-8 tech-image tech-glow">
+              <div className="mt-8 tech-image">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-4C0sxpMwbJymjfb4osElZjX675AQGg.png"
                   alt="Piggy bank with money"
@@ -579,7 +579,7 @@ function TokenomicsSection() {
           <AnimatedSection>
             <div className="relative">
               <motion.div
-                className="relative z-10 tech-image tech-glow"
+                className="relative z-10 tech-image"
                 animate={{ y: [0, -15, 0] }}
                 transition={{ repeat: Number.POSITIVE_INFINITY, duration: 6, ease: "easeInOut" }}
               >

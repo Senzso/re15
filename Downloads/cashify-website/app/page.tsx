@@ -167,7 +167,7 @@ function HowItWorksSection() {
 
         <div className="mt-12 text-center">
           <Link href="#buy" className="button-primary">
-            BUY CASHIFY <ArrowRight className="ml-2 h-5 w-5" />
+            BUY CASHIFY 
           </Link>
         </div>
       </div>
@@ -556,7 +556,7 @@ function RewardSystemSection() {
 
               <div className="mt-8 tech-image">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-4C0sxpMwbJymjfb4osElZjX675AQGg.png"
+                  src="2t.png"
                   alt="Piggy bank with money"
                   width={500}
                   height={500}

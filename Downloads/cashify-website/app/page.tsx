@@ -293,12 +293,12 @@ function TransparentSection() {
           <AnimatedSection>
             <div className="relative">
               <motion.div
-                className="relative z-10 tech-image"
+                className="relative z-10"
                 animate={{ y: [0, -15, 0] }}
                 transition={{ repeat: Number.POSITIVE_INFINITY, duration: 6, ease: "easeInOut" }}
               >
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5-C8mWep8fO4Tq3tpkn2V2arB9vqN5nq.png"
+                  src="5t.png"
                   alt="Credit cards with blue lighting"
                   width={600}
                   height={600}
@@ -554,7 +554,7 @@ function RewardSystemSection() {
                 (Final amounts vary based on token holdings.)
               </p>
 
-              <div className="mt-8 tech-image">
+              <div className="mt-8">
                 <Image
                   src="2t.png"
                   alt="Piggy bank with money"

@@ -13,10 +13,14 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "Cashify - Algorithm-Driven Rewards",
-  description:
-    "Turn trading volume into real rewards. Earn SOL automatically every time the market reaches a 200K trading milestone.",
-    generator: 'v0.dev'
+  title: 'Cashify',
+  description: 'The Future of Web3 Rewards',
+  generator: 'v0.dev',
+  icons: {
+    icon: "logo1.png",
+    shortcut: "logo1.png",
+    apple: "logo1.png",
+  },
 }
 
 export default function RootLayout({

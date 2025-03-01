@@ -230,8 +230,8 @@ function RewardsSection() {
         </div>
 
         <div className="mt-12 flex flex-wrap justify-center gap-6">
-          <Link href="#" className="button-secondary inline-flex items-center">
-            VIEW CHART <ExternalLink className="ml-2 h-4 w-4" />
+          <Link href="/buy" className="button-secondary inline-flex items-center">
+            BUY CASHIFY <ExternalLink className="ml-2 h-4 w-4" />
           </Link>
           <Link href="https://x.com/cashifysol" className="button-secondary inline-flex items-center">
             FOLLOW ON X <ExternalLink className="ml-2 h-4 w-4" />

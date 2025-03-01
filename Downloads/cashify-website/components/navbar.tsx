@@ -57,7 +57,7 @@ export default function Navbar() {
             <Link href="#why-cashify" className="text-white hover:text-secondary transition-colors">
               Why Cashify
             </Link>
-            <Link href="#follow-us" className="text-white hover:text-secondary transition-colors">
+            <Link href="https://x.com/cashifysol" className="text-white hover:text-secondary transition-colors">
               Follow Us
             </Link>
 

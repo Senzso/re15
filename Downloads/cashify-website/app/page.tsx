@@ -166,8 +166,8 @@ function HowItWorksSection() {
         </div>
 
         <div className="mt-12 text-center">
-          <Link href="#buy" className="button-primary">
-            BUY CASHIFY 
+          <Link href="https://x.com/cashifysol" className="button-primary">
+            LEARN ABOUT CASHIFY ON X 
           </Link>
         </div>
       </div>
@@ -737,8 +737,8 @@ function JoinSection() {
               <Link href="#buy" className="button-primary">
                 BUY CASHIFY
               </Link>
-              <Link href="#" className="button-secondary">
-                JOIN TELEGRAM
+              <Link href="https://x.com/cashifysol" className="button-secondary">
+                FOLLOW OUR X
               </Link>
             </div>
 

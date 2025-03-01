@@ -81,13 +81,13 @@ export default function BuyPage() {
             View on Solscan
           </Link>
           <Link
-            href="https://raydium.io/swap/?inputMint=sol&outputMint=J4WLpqyPUvum7bZ9eiVFEwV4dM8teBfET2ASGgNzRvtq"
+            href="https://dexscreener.com/solana/J4WLpqyPUvum7bZ9eiVFEwV4dM8teBfET2ASGgNzRvtq"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-[#a8abff] text-[#0B0E17] px-6 py-3 rounded-lg hover:bg-[#a8abff]/80 transition-colors font-semibold"
           >
             <ExternalLink className="w-4 h-4 mr-2" />
-            Buy on Raydium
+            DexScreener
           </Link>
         </div>
       </motion.div>

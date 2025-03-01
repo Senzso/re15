@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button"
 
 export default function BuyPage() {
   const [copied, setCopied] = useState(false)
-  const contractAddress = "5d58EQ6uSYyc1taH87azusviq1oqT1HtnhqhSs4zkq7a"
+  const contractAddress = "J4WLpqyPUvum7bZ9eiVFEwV4dM8teBfET2ASGgNzRvtq"
 
   const copyToClipboard = async () => {
     try {

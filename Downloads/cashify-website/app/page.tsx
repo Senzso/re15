@@ -233,8 +233,8 @@ function RewardsSection() {
           <Link href="#" className="button-secondary inline-flex items-center">
             VIEW CHART <ExternalLink className="ml-2 h-4 w-4" />
           </Link>
-          <Link href="#" className="button-secondary inline-flex items-center">
-            JOIN TELEGRAM <ExternalLink className="ml-2 h-4 w-4" />
+          <Link href="https://x.com/cashifysol" className="button-secondary inline-flex items-center">
+            FOLLOW ON X <ExternalLink className="ml-2 h-4 w-4" />
           </Link>
         </div>
       </div>

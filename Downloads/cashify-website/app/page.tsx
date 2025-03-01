@@ -133,9 +133,9 @@ function HowItWorksSection() {
                 Every buy and sell transaction contributes to a sustainable SOL reward system, ensuring consistent
                 payouts.
               </p>
-              <div className="tech-image">
+              <div className="">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/3-j9xlrtPI3gOpAQzn07YXMFT2HShImc.png"
+                  src="7t.png"
                   alt="Stacks of dollar bills"
                   width={500}
                   height={500}
@@ -152,9 +152,9 @@ function HowItWorksSection() {
                 Each time total trading volume reaches <span className="font-bold text-white">200K</span>, $40,000 in
                 SOL is distributed among the top 50 holders.
               </p>
-              <div className="tech-image">
+              <div className="">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/10-IcccLEUtS903pCHtCcksjYiNJ3FL5x.png"
+                  src="8t.png"
                   alt="Percentage symbol with astronaut"
                   width={500}
                   height={500}

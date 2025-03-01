@@ -1,0 +1,259 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 18% 11%;
+    --foreground: 210 40% 98%;
+    --card: 222 18% 11%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 18% 11%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 222 18% 11%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 240 80% 83%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --accent: 226 38% 28%;
+    --accent-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 48%;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.gradient-bg {
+  background: radial-gradient(circle at 50% 50%, #1f3072 0%, #161922 100%);
+  backdrop-filter: blur(10px);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #a8abff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section {
+  @apply py-16 md:py-24 px-4 md:px-8 max-w-7xl mx-auto;
+}
+
+.section-divider {
+  @apply w-full h-px bg-accent/20 my-8;
+}
+
+.button-primary {
+  @apply bg-secondary text-primary font-bold py-3 px-6 rounded-lg transition-all duration-300 hover:bg-secondary/90 hover:scale-105;
+}
+
+.button-secondary {
+  @apply bg-accent text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 hover:bg-accent/90 hover:scale-105;
+}
+
+.card {
+  @apply bg-card/50 backdrop-blur-md rounded-xl p-6 border border-accent/20 shadow-lg;
+}
+
+.digital-image {
+  position: relative;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.digital-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(31, 48, 114, 0.2), rgba(31, 48, 114, 0.1)),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(168, 171, 255, 0.05) 2px,
+      rgba(168, 171, 255, 0.05) 4px
+    );
+  pointer-events: none;
+  z-index: 10;
+}
+
+.digital-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(168, 171, 255, 0.2) 0%, rgba(31, 48, 114, 0.1) 100%);
+  box-shadow: inset 0 0 20px rgba(168, 171, 255, 0.3);
+  pointer-events: none;
+  z-index: 11;
+}
+
+.digital-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  position: relative;
+}
+
+.digital-glow {
+  box-shadow: 0 0 15px rgba(168, 171, 255, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+.digital-glow:hover {
+  box-shadow: 0 0 25px rgba(168, 171, 255, 0.7);
+}
+
+.grid-bg {
+  background-image: linear-gradient(rgba(31, 48, 114, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 48, 114, 0.3) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-position: center center;
+}
+
+.futuristic-overlay {
+  position: relative;
+}
+
+.futuristic-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(168, 171, 255, 0.1) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(168, 171, 255, 0.1) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(168, 171, 255, 0.1) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(168, 171, 255, 0.1) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.futuristic-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(168, 171, 255, 0.2) 0%, rgba(31, 48, 114, 0.1) 100%);
+  pointer-events: none;
+  z-index: 11;
+}
+
+.section-bg-mission {
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/missionbg.feb18eae.png-988BrVzH0QotajtFxcY99x34BAj292.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-bg-faq {
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/faqbg.2b250012-Rfd3Tvt5dG5j3yN1mPgrxTMMwmIfGx.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-bg-tokenomics {
+  background-image: url("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/thbg.fb7f9236-rucbXDwymn6tVBCpiqfQ5ZDc98lWvs.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-overlay {
+  @apply relative;
+}
+
+.section-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(22, 25, 34, 0.85), rgba(22, 25, 34, 0.95));
+  z-index: 1;
+}
+
+.section-content {
+  @apply relative z-10;
+}
+
+.tech-border {
+  @apply relative rounded-lg border border-secondary/30 overflow-hidden;
+}
+
+.tech-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, transparent, rgba(168, 171, 255, 0.1), transparent);
+  animation: border-flow 3s linear infinite;
+}
+
+.tech-image {
+  @apply relative rounded-lg overflow-hidden;
+}
+
+.tech-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, rgba(168, 171, 255, 0.1), transparent 40%),
+    linear-gradient(-45deg, rgba(31, 48, 114, 0.1), transparent 40%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.tech-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 50%, transparent 50%, rgba(168, 171, 255, 0.1));
+  pointer-events: none;
+  z-index: 3;
+}
+
+.tech-glow {
+  @apply relative;
+}
+
+.tech-glow::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(45deg, rgba(168, 171, 255, 0.5), transparent);
+  filter: blur(8px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tech-glow:hover::before {
+  opacity: 1;
+}
+
+@keyframes border-flow {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+

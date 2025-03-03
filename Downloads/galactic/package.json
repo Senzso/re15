@@ -37,7 +37,6 @@
     "@radix-ui/react-toggle": "^1.1.1",
     "@radix-ui/react-toggle-group": "^1.1.1",
     "@radix-ui/react-tooltip": "^1.1.6",
-    "autoprefixer": "^10.4.20",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",
@@ -47,9 +46,9 @@
     "lucide-react": "^0.454.0",
     "next": "14.2.16",
     "next-themes": "^0.4.4",
-    "react": "^18",
+    "react": "^18.2.0",
     "react-day-picker": "8.10.1",
-    "react-dom": "^18",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
     "recharts": "2.15.0",
@@ -58,23 +57,20 @@
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
     "zod": "^3.24.1",
-    "expo": "latest",
-    "expo-asset": "latest",
-    "expo-file-system": "latest",
-    "expo-gl": "latest",
-    "react-native": "latest",
     "three": "^0.158.0",
     "@react-three/fiber": "^8.15.11",
-    "@types/three": "latest",
     "@react-three/drei": "^9.88.17",
-    "maath": "latest"
+    "maath": "^0.10.4"
   },
   "devDependencies": {
-    "@types/node": "^22",
+    "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/three": "^0.158.3",
+    "autoprefixer": "^10.4.20",
     "postcss": "^8",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
   }
 }
+

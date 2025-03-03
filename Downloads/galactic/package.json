@@ -63,10 +63,10 @@
     "expo-file-system": "latest",
     "expo-gl": "latest",
     "react-native": "latest",
-    "three": "latest",
-    "@react-three/fiber": "latest",
+    "three": "^0.158.0",
+    "@react-three/fiber": "^8.15.11",
     "@types/three": "latest",
-    "@react-three/drei": "latest",
+    "@react-three/drei": "^9.88.17",
     "maath": "latest"
   },
   "devDependencies": {

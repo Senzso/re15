@@ -7,6 +7,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -46,3 +47,4 @@ function mergeConfig(nextConfig, userConfig) {
 }
 
 export default nextConfig
+

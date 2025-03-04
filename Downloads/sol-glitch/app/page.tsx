@@ -56,6 +56,7 @@ export default function Home() {
               src="https://iili.io/33vIYJa.md.png"
               alt="Net Infinite Gains Glitch Automation Logo"
               width={300}
+              height={300}
               className="glitch-image"
               priority
             />

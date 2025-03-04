@@ -45,9 +45,9 @@ export default function Home() {
 
   const copyToClipboard = () => {
     navigator.clipboard
-      .writeText("TBA")
+      .writeText("EobVfrzFx2eVRRJyvrk5qnyVpztTDjDyGZefpAP2aEFn")
       .then(() => {
-        console.log("TBA copied to clipboard")
+        console.log("EobVfrzFx2eVRRJyvrk5qnyVpztTDjDyGZefpAP2aEFn copied to clipboard")
       })
       .catch((err) => {
         console.error("Failed to copy text: ", err)
@@ -105,7 +105,7 @@ export default function Home() {
               Follow on Twitter
             </Button>
             <div className="flex items-center gap-2">
-              <Input value="TBAa" readOnly className="bg-transparent text-white border-white" />
+              <Input value="EobVfrzFx2eVRRJyvrk5qnyVpztTDjDyGZefpAP2aEFn" readOnly className="bg-transparent text-white border-white" />
               <Button
                 variant="ghost"
                 onClick={copyToClipboard}

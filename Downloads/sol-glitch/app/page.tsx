@@ -51,12 +51,12 @@ export default function Home() {
       {/* Header */}
       <header className="container mx-auto pt-4 px-4">
         <div className="text-center mb-8">
-          <div className="glitch-container mb-4 relative inline-block w-[300px] h-[300px]">
+          <div className="mb-4 relative inline-block w-[250px] h-[250px]">
             <Image
               src="https://iili.io/33vIYJa.md.png"
               alt="Net Infinite Gains Glitch Automation Logo"
-              width={300}
-              height={300}
+              width={250}
+              height={250}
               className="glitch-image"
               priority
             />

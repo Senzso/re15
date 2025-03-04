@@ -14,32 +14,32 @@ const faqItems: FAQItem[] = [
   {
     question: "How do I qualify for rewards?",
     answer:
-      "To qualify for rewards, you need to be among the top 50 holders of NET INFINITE GAINS GLITCH AUTOMATION tokens when the 200K volume milestone is reached. The more tokens you hold, the larger your share of the rewards pool.",
+      "All holders of NET INFINITE GAINS GLITCH AUTOMATION tokens qualify for rewards. The amount you receive depends on your holding amount and duration.",
   },
   {
     question: "When are rewards distributed?",
     answer:
-      "Rewards are distributed automatically whenever the trading volume reaches 200K. This could happen multiple times per day or take several days depending on market activity.",
+      "Rewards are distributed automatically every 21 minutes. This frequent distribution ensures a steady flow of rewards to all holders.",
   },
   {
     question: "How much SOL will I receive?",
     answer:
-      "The amount of SOL you receive depends on your position among the top 50 holders and the proportion of tokens you hold. The total reward pool of $40,000 in SOL is distributed proportionally among qualifying holders.",
+      "The amount of SOL you receive depends on your holding amount and duration. Larger holdings and longer holding periods result in higher rewards.",
   },
   {
     question: "Do I need to claim my rewards?",
     answer:
-      "No, rewards are sent automatically to your wallet. There's no need to claim or stake your tokens to receive rewards.",
+      "No, rewards are sent automatically to your wallet every 21 minutes. There's no need to claim or stake your tokens to receive rewards.",
   },
   {
     question: "Is there a minimum holding requirement?",
     answer:
-      "There's no specific minimum holding requirement, but you need to be among the top 50 holders to qualify for rewards. The exact threshold will vary based on the distribution of tokens.",
+      "There's no minimum holding requirement. All holders, regardless of the amount, receive rewards proportional to their holdings and holding duration.",
   },
   {
-    question: "Where can I buy NET INFINITE GAINS GLITCH AUTOMATION tokens?",
+    question: "How does the holding duration affect my rewards?",
     answer:
-      "You can buy NET INFINITE GAINS GLITCH AUTOMATION tokens on decentralized exchanges on the Solana network, such as Raydium, Orca, or Jupiter. Make sure to use the official contract address to avoid scams.",
+      "The longer you hold your tokens, the higher your reward multiplier becomes. This incentivizes long-term holding and creates a more stable token ecosystem.",
   },
 ]
 
@@ -71,8 +71,10 @@ export default function Home() {
               GLITCH AUTOMATION
             </span>
           </h2>
-          <p className="text-xl mb-2">The revolutionary Solana rewards token that pays holders in SOL</p>
-          <p className="text-2xl font-semibold mb-6">Every 200K volume reached</p>
+          <p className="text-xl mb-2">The revolutionary Solana rewards token that pays ALL holders in SOL</p>
+          <p className="text-2xl font-semibold mb-6">
+            Rewards distributed every 21 minutes based on holding amount and duration
+          </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <button className="bg-red-500 text-black px-8 py-3 text-lg font-bold hover:bg-red-400 transition-colors">
@@ -260,41 +262,12 @@ export default function Home() {
         `}</style>
       </header>
 
-      {/* Next Reward Pool */}
-      <section className="container mx-auto px-4 mb-16 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="w-full h-full bg-[linear-gradient(to_bottom,transparent,black_75%),linear-gradient(to_right,#ff0000_1px,transparent_1px),linear-gradient(to_bottom,#ff0000_1px,transparent_1px)] bg-[size:100%_100%,20px_20px,20px_20px]" />
-        </div>
-        <div className="relative">
-          <div className="max-w-md mx-auto border border-red-500 p-6 text-center">
-            <h2 className="text-3xl font-semibold mb-4">Next Reward Pool</h2>
-            <div className="text-6xl font-bold mb-4">$40,000</div>
-            <p className="text-xl mb-4">
-              SOL rewards for the top 50 holders will be unlocked when trading volume reaches 200K
-            </p>
-            <p className="text-xl mb-4">Estimated time until next reward: 2 days</p>
-
-            <div className="mt-4">
-              <p className="text-lg mb-2">Contract Address:</p>
-              <div className="flex items-center justify-center">
-                <input
-                  type="text"
-                  value="0x8a1c9b9...5a6d8e9a0NIGA"
-                  readOnly
-                  className="bg-black border border-red-500 text-red-500 text-base p-2 w-full"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* What is Net Infinite Gains Glitch Automation */}
       <section className="container mx-auto px-4 mb-16">
         <h2 className="text-4xl font-bold text-center mb-8">What is NET INFINITE GAINS GLITCH AUTOMATION?</h2>
         <p className="text-center max-w-3xl mx-auto mb-12">
           NET INFINITE GAINS GLITCH AUTOMATION is a revolutionary Solana rewards token that automatically distributes
-          SOL to holders when trading volume targets are reached.
+          SOL to holders every 21 minutes based on their holding amount and duration.
         </p>
 
         {/* Feature Boxes */}
@@ -303,9 +276,9 @@ export default function Home() {
             <div className="flex justify-center mb-4">
               <Zap className="h-8 w-8" />
             </div>
-            <h3 className="text-3xl font-bold text-center mb-3">Instant Rewards</h3>
+            <h3 className="text-3xl font-bold text-center mb-3">Frequent Rewards</h3>
             <p className="text-lg text-center">
-              Receive SOL rewards automatically whenever 200K in volume is reached. No claiming or staking required.
+              Receive SOL rewards automatically every 21 minutes. No claiming or staking required.
             </p>
           </div>
 
@@ -313,10 +286,10 @@ export default function Home() {
             <div className="flex justify-center mb-4">
               <Users className="h-8 w-8" />
             </div>
-            <h3 className="text-3xl font-bold text-center mb-3">Top Holder Benefits</h3>
+            <h3 className="text-3xl font-bold text-center mb-3">All Holder Benefits</h3>
             <p className="text-lg text-center">
-              The top 50 holders share $40,000 in SOL rewards every time 200K in volume is reached. Automatic
-              distribution.
+              Every holder receives rewards proportional to their holding amount and duration. Fair distribution for
+              all.
             </p>
           </div>
 
@@ -324,9 +297,9 @@ export default function Home() {
             <div className="flex justify-center mb-4">
               <TrendingUp className="h-8 w-8" />
             </div>
-            <h3 className="text-3xl font-bold text-center mb-3">Volume Incentives</h3>
+            <h3 className="text-3xl font-bold text-center mb-3">Loyalty Incentives</h3>
             <p className="text-lg text-center">
-              The reward mechanism encourages trading and holding, creating a sustainable ecosystem that benefits
+              The reward mechanism encourages longer holding periods, creating a sustainable ecosystem that benefits
               everyone.
             </p>
           </div>
@@ -337,7 +310,8 @@ export default function Home() {
       <section className="container mx-auto px-4 mb-16">
         <h2 className="text-4xl font-bold text-center mb-8">How Rewards Work</h2>
         <p className="text-center max-w-3xl mx-auto mb-12">
-          Our unique reward mechanism distributes SOL directly to holders when volume targets are reached.
+          Our unique reward mechanism distributes SOL directly to all holders based on their holding amount and
+          duration.
         </p>
 
         {/* Reward Distribution Process */}
@@ -349,27 +323,27 @@ export default function Home() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 flex items-center justify-center border border-red-500 h-8 w-8">1</div>
                 <div>
-                  <h4 className="font-bold mb-1">Volume Tracking</h4>
-                  <p className="text-base">
-                    The smart contract continuously monitors trading volume until 200K is reached.
-                  </p>
+                  <h4 className="font-bold mb-1">Regular Snapshots</h4>
+                  <p className="text-base">Every 21 minutes, a snapshot of all token holders is taken.</p>
                 </div>
               </div>
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0 flex items-center justify-center border border-red-500 h-8 w-8">2</div>
                 <div>
-                  <h4 className="font-bold mb-1">Snapshot</h4>
-                  <p className="text-base">When 200K volume is achieved, a snapshot of the top 50 holders is taken.</p>
+                  <h4 className="font-bold mb-1">Reward Calculation</h4>
+                  <p className="text-base">
+                    Rewards are calculated based on each holder's token amount and holding duration.
+                  </p>
                 </div>
               </div>
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0 flex items-center justify-center border border-red-500 h-8 w-8">3</div>
                 <div>
-                  <h4 className="font-bold mb-1">Reward Calculation</h4>
+                  <h4 className="font-bold mb-1">Automatic Distribution</h4>
                   <p className="text-base">
-                    $40,000 in SOL is proportionally divided among the top 50 holders based on their holdings.
+                    SOL rewards are automatically sent to all holders' wallets without any action required.
                   </p>
                 </div>
               </div>
@@ -377,9 +351,9 @@ export default function Home() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 flex items-center justify-center border border-red-500 h-8 w-8">4</div>
                 <div>
-                  <h4 className="font-bold mb-1">Automatic Distribution</h4>
+                  <h4 className="font-bold mb-1">Continuous Cycle</h4>
                   <p className="text-base">
-                    SOL rewards are automatically sent to holders' wallets without any action required.
+                    The process repeats every 21 minutes, ensuring frequent rewards for all holders.
                   </p>
                 </div>
               </div>
@@ -387,32 +361,22 @@ export default function Home() {
           </div>
 
           <div className="border border-red-500 p-6">
-            <h3 className="text-2xl font-bold mb-4 text-center">Example Reward Scenario</h3>
-            <p className="text-base mb-4 text-center">
-              Here's how rewards might be distributed among the top 50 holders:
-            </p>
+            <h3 className="text-2xl font-bold mb-4 text-center">Reward Factors</h3>
+            <p className="text-base mb-4 text-center">Your rewards are influenced by two main factors:</p>
 
             <div className="space-y-3 mb-6">
               <div className="flex justify-between">
-                <span>Top 1-10 Holders</span>
-                <span>$3,200 each</span>
+                <span>Holding Amount</span>
+                <span>Higher holdings = More rewards</span>
               </div>
               <div className="flex justify-between">
-                <span>Holders 11-20</span>
-                <span>$1,600 each</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Holders 21-30</span>
-                <span>$800 each</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Holders 31-50</span>
-                <span>$400 each</span>
+                <span>Holding Duration</span>
+                <span>Longer hold = Higher rewards</span>
               </div>
             </div>
 
             <p className="text-xs text-center italic">
-              * Actual distribution may vary based on the proportion of tokens held
+              * Actual distribution may vary based on the total number of holders and overall token distribution
             </p>
           </div>
         </div>
@@ -421,9 +385,9 @@ export default function Home() {
         <div className="border border-red-500 p-6 mt-8 max-w-md mx-auto md:ml-auto">
           <h3 className="text-2xl font-bold mb-4">Benefits for Holders</h3>
           <ul className="space-y-2 list-disc pl-6">
-            <li>Regular SOL rewards based on holding activity</li>
-            <li>Incentive to hold larger amounts for bigger rewards</li>
-            <li>No staking or locking required to earn rewards</li>
+            <li>Regular SOL rewards every 21 minutes</li>
+            <li>Incentive to hold larger amounts for longer periods</li>
+            <li>No minimum holding requirement to earn rewards</li>
             <li>Rewards in SOL, not token emissions (no dilution)</li>
           </ul>
         </div>
@@ -484,7 +448,7 @@ export default function Home() {
                 <TrendingUp className="h-6 w-6 flex-shrink-0" />
                 <div>
                   <h4 className="font-bold mb-1">Volume Based</h4>
-                  <p className="text-base">Rewards triggered at every 200K volume milestone</p>
+                  <p className="text-base">Rewards distributed automatically every 21 minutes</p>
                 </div>
               </div>
             </div>
@@ -496,19 +460,19 @@ export default function Home() {
           <ul className="space-y-2">
             <li className="flex items-center gap-2">
               <BarChart3 className="h-4 w-4 flex-shrink-0" />
-              <span className="text-base">Trading volume tracked in real-time</span>
+              <span className="text-base">Holder data tracked in real-time</span>
             </li>
             <li className="flex items-center gap-2">
               <Zap className="h-4 w-4 flex-shrink-0" />
-              <span className="text-base">Automatic snapshot at 200K volume</span>
+              <span className="text-base">Automatic snapshot every 21 minutes</span>
             </li>
             <li className="flex items-center gap-2">
               <Users className="h-4 w-4 flex-shrink-0" />
-              <span className="text-base">Top 50 holders receive rewards</span>
+              <span className="text-base">All holders receive rewards based on their holdings</span>
             </li>
             <li className="flex items-center gap-2">
               <TrendingUp className="h-4 w-4 flex-shrink-0" />
-              <span className="text-base">New tracking period begins</span>
+              <span className="text-base">New reward cycle begins immediately</span>
             </li>
           </ul>
         </div>
@@ -548,8 +512,8 @@ export default function Home() {
                 <span className="font-bold">NET INFINITE GAINS GLITCH AUTOMATION</span>
               </div>
               <p className="text-lg mt-2">
-                The revolutionary Solana rewards token that pays holders in SOL when trading volume milestones are
-                reached
+                The revolutionary Solana rewards token that pays ALL holders in SOL every 21 minutes based on holding
+                amount and duration
               </p>
             </div>
 

@@ -105,7 +105,7 @@ export default function Home() {
               Follow on Twitter
             </Button>
             <div className="flex items-center gap-2">
-              <Input value="TBA" readOnly className="bg-transparent text-white border-white" />
+              <Input value="TBAa" readOnly className="bg-transparent text-white border-white" />
               <Button
                 variant="ghost"
                 onClick={copyToClipboard}

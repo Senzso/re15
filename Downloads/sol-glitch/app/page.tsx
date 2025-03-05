@@ -262,6 +262,43 @@ export default function Home() {
         `}</style>
       </header>
 
+ {/* Contract Address */}
+          <section className="container mx-auto px-4 mb-16">
+        <div className="bg-red-500/10 border border-red-500 rounded-lg p-6 text-center">
+          <h2 className="text-2xl font-bold mb-4">Contract Address</h2>
+          <p className="text-lg mb-2">Official NET INFINITE GAINS GLITCH AUTOMATION Token Address:</p>
+          <div className="flex items-center justify-center">
+            <code className="bg-black text-red-500 px-4 py-2 rounded text-sm md:text-base break-all">
+              0x1234567890123456789012345678901234567890
+            </code>
+            <button
+              className="ml-2 p-2 bg-red-500 text-black rounded hover:bg-red-400 transition-colors"
+              onClick={() => {
+                navigator.clipboard.writeText("0x1234567890123456789012345678901234567890")
+                alert("Contract address copied to clipboard!")
+              }}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                className="w-5 h-5"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                />
+              </svg>
+            </button>
+          </div>
+          <p className="mt-4 text-sm">Always verify the contract address before interacting with the token.</p>
+        </div>
+      </section>
+
+
       {/* What is Net Infinite Gains Glitch Automation */}
       <section className="container mx-auto px-4 mb-16">
         <h2 className="text-4xl font-bold text-center mb-8">What is NET INFINITE GAINS GLITCH AUTOMATION?</h2>

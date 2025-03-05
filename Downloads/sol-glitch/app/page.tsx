@@ -273,12 +273,12 @@ export default function Home() {
           <p className="text-lg mb-2">Official NET INFINITE GAINS GLITCH AUTOMATION Token Address:</p>
           <div className="flex items-center justify-center">
             <code className="bg-black text-red-500 px-4 py-2 rounded text-sm md:text-base break-all">
-              0x1234567890123456789012345678901234567890
+            64ViHC4ynR4NCFYdGEMjDPQVrnLt47pfnkeezYnsVW4A
             </code>
             <button
               className="ml-2 p-2 bg-red-500 text-black rounded hover:bg-red-400 transition-colors"
               onClick={() => {
-                navigator.clipboard.writeText("0x1234567890123456789012345678901234567890")
+                navigator.clipboard.writeText("64ViHC4ynR4NCFYdGEMjDPQVrnLt47pfnkeezYnsVW4A")
                 alert("Contract address copied to clipboard!")
               }}
             >
@@ -308,7 +308,7 @@ export default function Home() {
         <h2 className="text-4xl font-bold text-center mb-8">What is NET INFINITE GAINS GLITCH AUTOMATION?</h2>
         <p className="text-center max-w-3xl mx-auto mb-12">
           NET INFINITE GAINS GLITCH AUTOMATION is a revolutionary Solana rewards token that automatically distributes
-          SOL to holders every 21 minutes based on their holding amount and duration.
+          SOL to holders every 17 minutes based on their holding amount and duration.
         </p>
 
         {/* Feature Boxes */}
@@ -319,7 +319,7 @@ export default function Home() {
             </div>
             <h3 className="text-3xl font-bold text-center mb-3">Frequent Rewards</h3>
             <p className="text-lg text-center">
-              Receive SOL rewards automatically every 21 minutes. No claiming or staking required.
+              Receive SOL rewards automatically every 17 minutes. No claiming or staking required.
             </p>
           </div>
 
@@ -365,7 +365,7 @@ export default function Home() {
                 <div className="flex-shrink-0 flex items-center justify-center border border-red-500 h-8 w-8">1</div>
                 <div>
                   <h4 className="font-bold mb-1">Regular Snapshots</h4>
-                  <p className="text-base">Every 21 minutes, a snapshot of all token holders is taken.</p>
+                  <p className="text-base">Every 17 minutes, a snapshot of all token holders is taken.</p>
                 </div>
               </div>
 

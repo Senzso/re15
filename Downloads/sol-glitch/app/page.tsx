@@ -80,12 +80,16 @@ export default function Home() {
             <button className="bg-red-500 text-black px-8 py-3 text-lg font-bold hover:bg-red-400 transition-colors">
               BUY HERE
             </button>
+            <a 
+              href="https://x.com/NIGGAonSOL_" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-block"
+            >
             <button className="border border-red-500 px-8 py-3 text-lg font-bold hover:bg-red-500/10 transition-colors">
-              VIEW TOKENOMICS
+              FOLLOW ON X
             </button>
-            <button className="border border-red-500 px-8 py-3 text-lg font-bold hover:bg-red-500/10 transition-colors">
-              FOLLOW US
-            </button>
+            </a>
           </div>
         </div>
         <style jsx>{`
